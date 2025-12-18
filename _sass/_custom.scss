@@ -1,0 +1,31 @@
+/* =========================================
+   다크모드 코드 블록 하이라이트 색상
+   - 키워드: 보라색 계열
+   - 문자열: 눈에 부담 없는 연녹색
+   - 주석: 부드러운 회색
+   - 전체 코드: 연한 회색
+========================================= */
+
+:root[data-theme="dark"] .highlight code {
+  color: #e0e0e0;           /* 기본 코드 글자색 */
+  background-color: #1e1e1e; /* 코드 블록 배경 */
+}
+
+/* 키워드 및 연산자 */
+:root[data-theme="dark"] .highlight .token.keyword,
+:root[data-theme="dark"] .highlight .token.operator {
+  color: #cdaaff;           /* 연보라색 */
+}
+
+/* 문자열 */
+:root[data-theme="dark"] .highlight .token.string {
+  color: #a8ffb0;           /* 연녹색 */
+}
+
+/* 주석, Prolog, DOCTYPE, CDATA */
+:root[data-theme="dark"] .highlight .token.comment,
+:root[data-theme="dark"] .highlight .token.prolog,
+:root[data-theme="dark"] .highlight .token.doctype,
+:root[data-theme="dark"] .highlight .token.cdata {
+  color: #6c7086;           /* 부드러운 회색 */
+}
