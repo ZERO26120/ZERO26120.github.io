@@ -1,0 +1,9 @@
+# _data/locales/ko.yml
+
+home: "홈"
+categories: "카테고리"
+tags: "태그"
+about: "소개"
+search: "검색"
+archives: "아카이브"
+read_more: "더보기"
