@@ -44,13 +44,6 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-menu:
-  홈: /홈/
-  카테고리: /categories/
-  태그: /tags/
-  소개: /about/
-
-
 # Site Verification Settings
 webmaster_verifications:
   google: # fill in your Google verification code
