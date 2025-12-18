@@ -29,3 +29,42 @@
 :root[data-theme="dark"] .highlight .token.cdata {
   color: #6c7086;           /* 부드러운 회색 */
 }
+
+/* =========================================
+   다크모드 본문 강조 스타일
+   - strong: 보라색 계열
+   - em: 부드러운 푸른색 계열
+   - del, u: 기존 스타일 유지
+========================================= */
+
+/* 굵게 텍스트 */
+:root[data-theme="dark"] .post-content strong {
+  color: #d8b4ff;  /* 눈에 부담 없는 보라 */
+}
+
+/* 기울임 텍스트 */
+:root[data-theme="dark"] .post-content em {
+  color: #7aa6ff;  /* 다크모드에서 편안한 푸른색 */
+}
+
+/* 취소선: 기존 스타일 유지 */
+:root[data-theme="dark"] .post-content del {
+  color: #6c7086;
+  text-decoration: line-through;
+}
+
+/* 밑줄: 기존 스타일 유지 */
+:root[data-theme="dark"] .post-content u {
+  color: #a0c4ff;
+  text-decoration: underline;
+}
+/* 다크모드 본문 링크 */
+:root[data-theme="dark"] .post-content a {
+  color: #ffa45c;       /* 눈에 부담 없는 부드러운 주황색 */
+  text-decoration: underline; /* 필요하면 밑줄 유지 */
+}
+
+/* 마우스 오버 시 강조 */
+:root[data-theme="dark"] .post-content a:hover {
+  color: #ffb77a;       /* 약간 밝게 강조 */
+}
