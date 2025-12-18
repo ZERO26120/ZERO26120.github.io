@@ -45,7 +45,7 @@ social:
     # - https://www.linkedin.com/in/username
 
 menu:
-  홈: /
+  홈: /홈/
   카테고리: /categories/
   태그: /tags/
   소개: /about/
